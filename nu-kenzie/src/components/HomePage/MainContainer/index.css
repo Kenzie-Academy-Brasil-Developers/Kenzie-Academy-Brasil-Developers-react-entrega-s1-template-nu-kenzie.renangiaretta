@@ -1,0 +1,7 @@
+.home-main-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: #F8F9FA;
+    justify-content: space-between;
+}

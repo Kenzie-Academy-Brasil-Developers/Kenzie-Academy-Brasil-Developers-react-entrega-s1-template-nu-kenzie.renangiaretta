@@ -1,0 +1,54 @@
+.mainContainer {
+    /* background-color: red; */
+    width: 55rem;
+    height: 37rem;
+    display: flex;
+}
+.left-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left-container img {
+    width: 7.625rem;
+    height: 1.25rem;
+}
+.left-container h1 {
+    font-family: 'Nunito' sans-serif;
+    font-weight: 800;
+    font-size: 2.25rem;
+    line-height: 3rem;
+
+}
+.left-container p {
+    font-family: 'Nunito' sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+.left-container button {
+    background-color: #fd377e;
+    width: 15rem;
+    height: 3rem;
+    border: 2px solid #fd377e;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Inter' sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.21rem;
+    cursor: pointer;
+}
+.indexRightContainer {
+    /* background-color: blue; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indexRightContainer > img {
+    width: 100%;
+}
